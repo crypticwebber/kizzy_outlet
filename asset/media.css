@@ -147,6 +147,7 @@
         height: 500px;
         margin-left: 5%;
         margin-top: -5rem;
+        padding: 0 0 1rem 0;
     }
     .col_2 img{
         width: 100%;
@@ -157,6 +158,7 @@
         height: 500px;
         margin-left: 5%;
         margin-top: 3rem;
+        padding: 0 0 1rem 0;
     }
     .col3 img{
         width: 100%;
@@ -167,6 +169,7 @@
         height: 500px;
         margin-left: 5%;
         margin-top: 3rem;
+        padding: 0 0 1rem 0;
     }
     .col4 img{
         width: 100%;
@@ -177,6 +180,7 @@
         height: 500px;
         margin-left: 5%;
         margin-top: 3rem;
+        padding: 0 0 1rem 0;
     }
     .col5 img{
         width: 100%;
@@ -186,7 +190,8 @@
     .hover{
         width: 40%;
         height: 400px;
-        background-color: black;
+        background-color: white;
+        color: black;
         position: absolute;
         right: 0;
         display: none;
@@ -198,7 +203,7 @@
     }
     .tabs-media li a{
         text-decoration: none;
-        color: white;
+        color: black;
         line-height: 2rem;
         font-size: 20px;
         font-family: sans-serif;
@@ -208,6 +213,10 @@
     }
     .tabs-media li:hover{
         background-color: rgb(70, 70, 243);
+    }
+    .tabs-media li:hover a{
+        background-color: rgb(70, 70, 243);
+        color: white;
     }
     .heading button:hover .hover {
         display: block;
