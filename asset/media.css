@@ -251,8 +251,8 @@
         background-color: transparent;
         backdrop-filter: blur(0.5rem);
         border-radius: 3rem;
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
         /* justify-content: center; */
         align-items: center;
         font-family: sans-serif;
@@ -265,7 +265,7 @@
     }
     
     .form-login{
-        width: 300px;
+        width: 80%;
         height: 50px;
         margin-bottom: 1rem;
         margin-top: 1rem;
@@ -279,22 +279,22 @@
         backdrop-filter: blur(0.5rem);
         color: white;
         outline: none;
-        margin-left: 0.5rem;    
+        margin-left: 2.5rem;    
     }
     .form-login::placeholder{
         color: white;
     }
     .checkbox{
-        margin-left: 1rem;
+        margin-left: 1.5rem;
         color: white;
     }
     .checkbox a{
         text-decoration: none;
-        margin-left: 1rem;
+        margin-left: 2rem;
         color: white;
     }
     .login {
-        width: 300px;
+        width: 80%;
         height: 50px;
         background-color: white;
         color: black;
@@ -304,7 +304,7 @@
         transition: 0.5s;
         cursor: pointer;
         margin-top: 1rem;
-        margin-left: 0.5rem;
+        margin-left: 2.5rem;
     }
     .login:hover {
         background-color: rgb(2, 2, 107);
@@ -315,12 +315,12 @@
         font-family: sans-serif;
         font-size: 15px;
         margin-top: 1rem;
-        margin-left: 1rem;
+        margin-left: 4.5rem;
     }
     .Account a{
         color: white;
         text-decoration: none;
-        margin-left: 3rem;
+        margin-left: 1rem;
     }
 
     /* signup.html? */
@@ -347,9 +347,9 @@
         height: 500px;
         border: 1px solid grey;
         border-radius: 3rem;
-        display: flex;
+        /* display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: center; */
         /* justify-content: center; */
         background-color: transparent;
         backdrop-filter: blur(0.5rem);
@@ -359,13 +359,15 @@
         font-size: 30px;
         font-family: sans-serif;
         margin-top: 3rem;
+        margin-bottom: 1rem;
+        text-align: center;
     }
     .s-form{
-        width: 340px;
+        width: 89%;
         height: 50px; 
-        display: flex;
+        /* display: flex;
         flex-direction: column; 
-        justify-content: center;
+        justify-content: center; */
         /* align-items: center; */
         margin-top: 0.5rem;
         border-radius: 2rem;
@@ -375,7 +377,7 @@
         outline: none;
         padding: 0 0 0 1rem;
         color: white;
-        margin: 2%;
+        margin-left: 1.2rem;
     }
     .s-form::placeholder{
         padding: 0 0 0 1rem;
@@ -384,7 +386,7 @@
         border: none;
     }
     .signup {
-        width: 340px;
+        width: 90%;
         height: 50px;
         background-color: white;
         color: black;
@@ -394,7 +396,8 @@
         transition: 0.5s;
         cursor: pointer;
         margin-top: 1rem;
-        /* margin-left: 1rem; */
+        margin-left: 1.2rem;
+        
     }
     .signup:hover {
         background-color: rgb(2, 2, 107);
@@ -665,8 +668,8 @@
         background-color: transparent;
         backdrop-filter: blur(0.5rem);
         border-radius: 3rem;
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
         /* justify-content: center; */
         align-items: center;
         font-family: sans-serif;
@@ -679,7 +682,7 @@
     }
     
     .form-login{
-        width: 350px;
+        width: 80%;
         height: 50px;
         margin-bottom: 1rem;
         margin-top: 1rem;
@@ -698,26 +701,26 @@
         color: white;
     }
     .checkbox{
-        margin-left: 1rem;
+        margin-left: 2rem;
         color: white;
     }
     .checkbox a{
         text-decoration: none;
-        margin-left: 4rem;
+        margin-left: 5rem;
         color: white;
     }
     .login {
-        width: 350px;
+        width: 80%;
         height: 50px;
         background-color: white;
         color: black;
         border: none;
-        font-size: 18px;
+        font-size: 20px;
         border-radius: 50px;
         transition: 0.5s;
         cursor: pointer;
         margin-top: 1rem;
-        margin-left: 0.5rem;
+        margin-left: 2.5rem;
     }
     .login:hover {
         background-color: rgb(2, 2, 107);
@@ -728,12 +731,12 @@
         font-family: sans-serif;
         font-size: 15px;
         margin-top: 1rem;
-        margin-left: 1rem;
+        margin-left: 4rem;
     }
     .Account a{
         color: white;
         text-decoration: none;
-        margin-left: 6.5rem;
+        margin-left: 6rem;
         margin-top: 1rem;
     }
     
@@ -762,10 +765,10 @@
         height: 500px;
         border: 1px solid grey;
         border-radius: 3rem;
-        display: flex;
+        /* display: flex;
         flex-direction: column;
         align-items: center;
-        /* justify-content: center; */
+        justify-content: center; */
         background-color: transparent;
         backdrop-filter: blur(0.5rem);
     }
@@ -774,14 +777,16 @@
         font-size: 30px;
         font-family: sans-serif;
         margin-top: 3rem;
+        text-align: center;
+        margin-bottom: 1rem;
     }
     .s-form{
-        width: 400px;
+        width: 80%;
         height: 50px; 
-        display: flex;
+        /* display: flex;
         flex-direction: column; 
         justify-content: center;
-        /* align-items: center; */
+        align-items: center; */
         margin-top: 0.5rem;
         border-radius: 2rem;
         border: 1px solid grey;
@@ -790,7 +795,7 @@
         outline: none;
         padding: 0 0 0 1rem;
         color: white;
-        margin-left: 0.5rem;
+        margin-left: 3rem;
     }
     .s-form::placeholder{
         padding: 0 0 0 1rem;
@@ -799,7 +804,7 @@
         border: none;
     }
     .signup {
-        width: 400px;
+        width: 80%;
         height: 50px;
         background-color: white;
         color: black;
@@ -809,7 +814,7 @@
         transition: 0.5s;
         cursor: pointer;
         margin-top: 1rem;
-        margin-left: 0.5rem;
+        margin-left: 3rem;
     }
     .signup:hover {
         background-color: rgb(2, 2, 107);
