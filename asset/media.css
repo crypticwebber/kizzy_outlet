@@ -243,6 +243,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: -4rem;
     }
     .col-login{
         width: 85%;
@@ -287,11 +288,13 @@
     .checkbox{
         margin-left: 1.5rem;
         color: white;
+        font-size: 12px;
     }
     .checkbox a{
         text-decoration: none;
-        margin-left: 2rem;
+        margin-left: 6rem;
         color: white;
+        font-size: 12px;
     }
     .login {
         width: 80%;
@@ -313,7 +316,7 @@
     .Account{
         color: white;
         font-family: sans-serif;
-        font-size: 15px;
+        font-size: 12px;
         margin-top: 1rem;
         margin-left: 4.5rem;
     }
@@ -321,6 +324,7 @@
         color: white;
         text-decoration: none;
         margin-left: 1rem;
+        font-size: 12px;
     }
 
     /* signup.html? */
@@ -341,6 +345,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: -4rem;
     }
     .col-signup{
         width: 85%;
